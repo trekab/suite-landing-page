@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+}
+
+.main-header__btn {
+  font-family: "Epilogue", sans-serif;
+  font-size: 0.8rem;
+  color: #172339;
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #172339;
+  border-radius: 5px;
+}
