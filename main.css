@@ -18,13 +18,21 @@ body {
 }
 
 .main-header__btn {
-  font-size: 0.8rem;
+  height: 48px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.14px;
   font-weight: 700;
   color: #172339;
   background-color: white;
-  padding: 1rem;
+  padding: 0 1rem;
   border: 1px solid #172339;
   border-radius: 5px;
+}
+
+.main-header__btn:hover {
+  color: white;
+  background-color: #172339;
 }
 
 .main-heading__pattern {
@@ -60,20 +68,29 @@ body {
   font-weight: 400;
   color: #49566d;
   line-height: 28px;
+  letter-spacing: 0.09px;
 }
 
 .main-section__btn {
+  height: 61px;
   margin: 1rem;
   width: 60%;
   height: 60px;
-  font-size: 1.2rem;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
   font-weight: 700;
-  color: white;
+  color: #faf8f6;
   background-color: #172339;
-  padding: 1rem;
-  border: 1px solid #172339;
+  padding: 0 1rem;
+  border: none;
   border-radius: 5px;
   min-width: 256px;
+}
+
+.main-section__btn:hover {
+  background: linear-gradient(to bottom right, #a060ff, #cb30e3, #ffa84e);
+  border: none;
 }
 
 .hero-image {
@@ -113,6 +130,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+  letter-spacing: 2.5px;
   color: #49566d;
 }
 
