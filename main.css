@@ -113,7 +113,72 @@ body {
 }
 
 .jeremy-image {
-  width: 50%;
+  display: block;
+  width: 67%;
   margin: auto;
-  margin-top: 4rem;
+  position: relative;
+  top: 230px;
+  margin-top: -200px;
+}
+
+.about {
+  background-color: #172339;
+  color: white;
+  padding: 1rem;
+  height: 80vh;
+  padding-top: 280px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+blockquote {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 2rem 0;
+}
+
+blockquote:before {
+  content: '"';
+}
+
+blockquote:after {
+  content: '"';
+}
+
+.about-curved-line {
+  display: block;
+  width: 15%;
+  margin: auto;
+}
+
+.about-strong {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.about-p {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
+.about-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.footer {
+  height: 25vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
 }
