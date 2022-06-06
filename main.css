@@ -104,11 +104,15 @@ body {
 
 .stats-item__value {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 48px;
+  line-height: 56px;
   color: #172339;
 }
 
 .stats-item__label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
   color: #49566d;
 }
 
@@ -168,13 +172,26 @@ blockquote:after {
   line-height: 32px;
 }
 
+.about-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
 .footer {
   height: 25vh;
-  background-color: whitesmoke;
+  background-color: #f3ede7;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  color: #49566d;
+}
+
+.footer p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 .footer-logos {
