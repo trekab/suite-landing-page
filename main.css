@@ -96,6 +96,7 @@ body {
 .hero-image {
   width: 93%;
   margin: auto;
+  max-width: 500px;
 }
 
 .hero-image img {
@@ -153,7 +154,7 @@ body {
 
 .about-wrapper {
   background-color: #f3ede7;
-  height: 50vh;
+  height: 40vh;
   position: absolute;
   top: 215vh;
   z-index: -999;
@@ -206,7 +207,6 @@ blockquote:after {
 .footer {
   height: 25vh;
   background-color: #f3ede7;
-
   color: #49566d;
 }
 
@@ -227,7 +227,7 @@ blockquote:after {
 .footer-logos {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 110px;
 }
 
 .footer-logo:hover {
@@ -238,6 +238,7 @@ blockquote:after {
   .main-header {
     width: 90%;
     margin: auto;
+    padding: 0.8rem 0;
   }
 
   .main-header__btn {
@@ -272,8 +273,10 @@ blockquote:after {
     background-image: url(./assets/image-hero-portrait.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
     margin-top: 4rem;
     margin-bottom: 6rem;
+    padding-bottom: 2rem;
   }
 
   .jeremy-image {
@@ -307,9 +310,5 @@ blockquote:after {
     align-items: center;
     width: 90%;
     margin: auto;
-  }
-
-  .footer-logos {
-    width: 110px;
   }
 }
