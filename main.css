@@ -144,10 +144,9 @@ body {
 
 .jeremy-image {
   display: block;
-  width: 67%;
   margin: auto;
   position: relative;
-  top: 230px;
+  top: 225px;
   margin-top: -200px;
 }
 
@@ -177,7 +176,6 @@ blockquote:after {
 
 .about-curved-line {
   display: block;
-  width: 15%;
   margin: auto;
 }
 
@@ -259,5 +257,10 @@ blockquote:after {
   .stats-section {
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  .about {
+    width: 95%;
+    margin: auto;
   }
 }
