@@ -263,4 +263,13 @@ blockquote:after {
     width: 95%;
     margin: auto;
   }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-logos {
+    width: 15%%;
+  }
 }
