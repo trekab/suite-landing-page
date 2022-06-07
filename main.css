@@ -20,6 +20,7 @@ body {
 .main-header__btn {
   height: 48px;
   font-size: 14px;
+  width: 182px;
   line-height: 24px;
   letter-spacing: -0.14px;
   font-weight: 700;
@@ -33,22 +34,23 @@ body {
 .main-header__btn:hover {
   color: white;
   background-color: #172339;
+  cursor: pointer;
 }
 
-.main-heading__pattern {
+.intro-curve {
   position: relative;
-  top: -40px;
-  left: 160px;
-  width: 150px;
+  top: 63px;
+  left: 172px;
+  width: 158px;
 }
 
 .main-heading {
   margin: 1rem;
   margin-top: 4rem;
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 38px;
   color: #172339;
-  min-width: 350px;
+  width: 360px;
 }
 
 .main-heading em {
@@ -56,11 +58,8 @@ body {
   font-weight: 700;
 }
 
-.solution-pattern {
-  margin-left: -9rem;
-}
-
 .intro-p {
+  width: 365px;
   margin: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -91,11 +90,13 @@ body {
 .main-section__btn:hover {
   background: linear-gradient(to bottom right, #a060ff, #cb30e3, #ffa84e);
   border: none;
+  cursor: pointer;
 }
 
 .hero-image {
   width: 93%;
   margin: auto;
+  max-width: 500px;
 }
 
 .hero-image img {
@@ -136,10 +137,9 @@ body {
 
 .jeremy-image {
   display: block;
-  width: 67%;
   margin: auto;
   position: relative;
-  top: 230px;
+  top: 225px;
   margin-top: -200px;
 }
 
@@ -150,6 +150,15 @@ body {
   padding-top: 280px;
   border-radius: 15px;
   text-align: center;
+}
+
+.about-wrapper {
+  background-color: #f3ede7;
+  height: 40vh;
+  position: absolute;
+  top: 215vh;
+  z-index: -999;
+  width: 100%;
 }
 
 blockquote {
@@ -169,7 +178,6 @@ blockquote:after {
 
 .about-curved-line {
   display: block;
-  width: 15%;
   margin: auto;
 }
 
@@ -199,11 +207,15 @@ blockquote:after {
 .footer {
   height: 25vh;
   background-color: #f3ede7;
+  color: #49566d;
+}
+
+.footer-container {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  color: #49566d;
 }
 
 .footer p {
@@ -215,5 +227,88 @@ blockquote:after {
 .footer-logos {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 110px;
+}
+
+.footer-logo:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    width: 90%;
+    margin: auto;
+    padding: 0.8rem 0;
+  }
+
+  .main-header__btn {
+    font-size: 16px;
+    width: 219px;
+    height: 56px;
+  }
+  .main-heading {
+    width: 557px;
+    font-size: 56px;
+    font-weight: 400;
+  }
+
+  .intro-curve {
+    position: relative;
+    top: 60px;
+    left: 249px;
+    width: 229px;
+  }
+
+  .main-section__btn {
+    width: 200px;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .intro-section {
+    width: 90%;
+    margin: auto;
+    background-image: url(./assets/image-hero-portrait.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    padding-bottom: 2rem;
+  }
+
+  .jeremy-image {
+    margin-top: -140px;
+  }
+
+  .stats-section {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .about-wrapper {
+    background-color: #f3ede7;
+    height: 54vh;
+    position: absolute;
+    top: 145vh;
+    z-index: -999;
+    width: 100%;
+  }
+
+  .about {
+    width: 90%;
+    margin: auto;
+    padding: 5rem;
+    padding-top: 16rem;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
 }
