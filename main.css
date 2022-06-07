@@ -20,6 +20,7 @@ body {
 .main-header__btn {
   height: 48px;
   font-size: 14px;
+  width: 182px;
   line-height: 24px;
   letter-spacing: -0.14px;
   font-weight: 700;
@@ -224,7 +225,16 @@ blockquote:after {
   width: 30%;
 }
 
+.footer-logo:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
+  .main-header__btn {
+    font-size: 16px;
+    width: 219px;
+    height: 56px;
+  }
   .main-heading {
     width: 557px;
     font-size: 56px;
@@ -242,7 +252,7 @@ blockquote:after {
     width: 200px;
   }
 
-  .hero-image{
+  .hero-image {
     display: none;
   }
 
@@ -252,6 +262,12 @@ blockquote:after {
     background-position: right;
     padding-bottom: 1.5rem;
     margin-right: 0.8rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+
+  .jeremy-image{
+    margin-top: -140px;
   }
 
   .stats-section {
@@ -259,8 +275,17 @@ blockquote:after {
     justify-content: space-around;
   }
 
+  .about-wrapper {
+    background-color: #f3ede7;
+    height: 54vh;
+    position: absolute;
+    top: 145vh;
+    z-index: -999;
+    width: 100%;
+  }
+
   .about {
-    width: 95%;
+    width: 90%;
     margin: auto;
     padding: 5rem;
     padding-top: 16rem;
@@ -269,6 +294,7 @@ blockquote:after {
   .footer {
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
   }
 
   .footer-logos {
