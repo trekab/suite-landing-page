@@ -262,6 +262,8 @@ blockquote:after {
   .about {
     width: 95%;
     margin: auto;
+    padding: 5rem;
+    padding-top: 16rem;
   }
 
   .footer {
@@ -270,6 +272,6 @@ blockquote:after {
   }
 
   .footer-logos {
-    width: 15%%;
+    width: 110px;
   }
 }
