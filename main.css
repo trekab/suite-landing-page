@@ -35,20 +35,20 @@ body {
   background-color: #172339;
 }
 
-.main-heading__pattern {
+.intro-curve {
   position: relative;
-  top: -40px;
-  left: 160px;
-  width: 150px;
+  top: 63px;
+  left: 172px;
+  width: 158px;
 }
 
 .main-heading {
   margin: 1rem;
   margin-top: 4rem;
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 38px;
   color: #172339;
-  min-width: 350px;
+  width: 360px;
 }
 
 .main-heading em {
@@ -57,7 +57,12 @@ body {
 }
 
 .solution-pattern {
-  margin-left: -9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.solution-pattern div {
+  display: inline-block;
 }
 
 .intro-p {
@@ -216,4 +221,19 @@ blockquote:after {
   display: flex;
   justify-content: space-between;
   width: 30%;
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    width: 557px;
+    font-size: 56px;
+    font-weight: 400;
+  }
+
+  .intro-curve {
+    position: relative;
+    top: 60px;
+    left: 249px;
+    width: 229px;
+  }
 }
