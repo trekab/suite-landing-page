@@ -33,6 +33,7 @@ body {
 .main-header__btn:hover {
   color: white;
   background-color: #172339;
+  cursor: pointer;
 }
 
 .intro-curve {
@@ -66,6 +67,7 @@ body {
 }
 
 .intro-p {
+  width: 365px;
   margin: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -96,6 +98,7 @@ body {
 .main-section__btn:hover {
   background: linear-gradient(to bottom right, #a060ff, #cb30e3, #ffa84e);
   border: none;
+  cursor: pointer;
 }
 
 .hero-image {
@@ -235,5 +238,26 @@ blockquote:after {
     top: 60px;
     left: 249px;
     width: 229px;
+  }
+
+  .main-section__btn {
+    width: 200px;
+  }
+
+  .hero-image{
+    display: none;
+  }
+
+  .intro-section {
+    background-image: url(./assets/image-hero-portrait.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 1.5rem;
+    margin-right: 0.8rem;
+  }
+
+  .stats-section {
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
