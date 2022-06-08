@@ -156,7 +156,7 @@ body {
   background-color: #f3ede7;
   height: 40vh;
   position: absolute;
-  top: 215vh;
+  top: 240vh;
   z-index: -999;
   width: 100%;
 }
@@ -292,7 +292,7 @@ blockquote:after {
     background-color: #f3ede7;
     height: 54vh;
     position: absolute;
-    top: 145vh;
+    top: 172vh;
     z-index: -999;
     width: 100%;
   }
