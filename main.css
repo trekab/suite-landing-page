@@ -312,3 +312,24 @@ blockquote:after {
     margin: auto;
   }
 }
+
+@media (min-width: 992px) {
+  .main-header {
+    max-width: 1020px;
+    margin: auto;
+  }
+
+  .top-section {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    max-width: 1020px;
+  }
+
+  .stats-section {
+    flex-direction: column;
+    width: 30%;
+    height: 30vh;
+  }
+}
