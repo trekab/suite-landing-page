@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://suite-landing-page-trekab.netlify.app/)
+- Live Site URL: [Suite landing page](https://suite-landing-page-trekab.netlify.app/)
 
 ## My process
 
