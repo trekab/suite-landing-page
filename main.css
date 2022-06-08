@@ -314,7 +314,9 @@ blockquote:after {
 }
 
 @media (min-width: 992px) {
-  .main-header {
+  .main-header,
+  .top-section,
+  .about {
     max-width: 1020px;
     margin: auto;
   }
@@ -323,13 +325,35 @@ blockquote:after {
     display: flex;
     align-items: center;
     width: 90%;
-    margin: auto;
-    max-width: 1020px;
   }
 
   .stats-section {
     flex-direction: column;
-    width: 30%;
-    height: 30vh;
+    width: 35%;
+    height: 20vh;
   }
+
+  .about {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .about-curved-line {
+    margin-left: 45%;
+    margin-top: 5rem;
+  }
+
+  .about-text {
+    width: 40%;
+    text-align: left;
+  }
+
+  .jeremy-image {
+    right: 235px;
+    top: 420px;
+    width: 285px;
+    margin-top: -400px;
+  }
+  
 }
