@@ -316,7 +316,8 @@ blockquote:after {
 @media (min-width: 992px) {
   .main-header,
   .top-section,
-  .about {
+  .about,
+  .footer-container {
     max-width: 1020px;
     margin: auto;
   }
@@ -355,5 +356,13 @@ blockquote:after {
     width: 285px;
     margin-top: -400px;
   }
-  
+
+  .about-wrapper {
+    height: 30vh;
+    top: 1000px;
+  }
+
+  .footer{
+    height: 20vh;
+  }
 }
