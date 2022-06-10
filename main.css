@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@100;300;400;700&display=swap");
 
 * {
+  font-family: "Epilogue", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Epilogue", sans-serif;
   background-color: #faf8f6;
 }
 
@@ -244,13 +244,16 @@ blockquote:after {
 
   .main-header__btn {
     font-size: 16px;
+    line-height: 32px;
     width: 219px;
     height: 56px;
   }
+
   .main-heading {
     width: 557px;
     font-size: 56px;
     font-weight: 400;
+    line-height: 64px;
   }
 
   .intro-curve {
